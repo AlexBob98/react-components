@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+
+.card-list__wheel {
+  width: 16em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 1em;
+  padding: 1em 1em;
+  background: white;
+  border-radius: 1.5em;
+  box-shadow: 1px 1px 6px #0000002e;
+  border: 1px solid #3a3a3a3d;
+  transition: all 0.4s ease-in-out;
+}
+
+.card-list__wheel:hover {
+  box-shadow: 1px 1px 6px #000;
+}
+
+.card-list__wheel img {
+  width: 14em;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item-card__name {
+  font-family: 'Rubik';
+  text-align: center;
+  height: 3.5em;
+  display: flex;
+  align-items: flex-start;
+}
+
+.item-card__characteristic {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1em;
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  width: 100%;
+}

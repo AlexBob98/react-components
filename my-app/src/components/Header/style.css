@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #242424;
+  padding: 1.5em;
+  font-family: 'Rubik';
+  font-size: 1.5em;
+}
+
+.header a {
+  color: rgb(255, 255, 255);
+  padding: 0 0.5em;
+  transition: all 0.4s;
+}
+
+.header a:hover {
+  color: #8a8a8a;
+}
